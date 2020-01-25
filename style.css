@@ -1,6 +1,9 @@
 h1 {
   font-family: 'Lexend Deca', sans-serif;
   display: inline-block;
+  font-size: 42px;
+  margin-left: 5px;
+  margin-top: 0px;
 }
 .dropdown {
   font-family: 'Roboto', sans-serif;
@@ -9,10 +12,11 @@ h1 {
   float: right;
 }
 .dropbutton {
-  background-color: #4CAF50;
+  background-color: #000;
   color: white;
-  padding: 16px;
+  padding: 16px 29px;
   font-size: 16px;
+  letter-spacing: 3px;
   border: none;
 }
 .dropdown-content {
@@ -24,6 +28,7 @@ h1 {
 }
 .dropdown-content a {
   color: black;
+  font-family: 'Roboto', sans-serif;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
