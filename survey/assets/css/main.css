@@ -1,15 +1,35 @@
 .question-container {
-  background-color: white;
-  padding: 20px;
+  padding: 10px;
 }
 body {
-  background-color: pink;
+background: linear-gradient(216deg, #75bf95, #6abad2, #f5adc3, #ffd775);
+background-size: 400% 400%;
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:35% 0%}
+    50%{background-position:66% 100%}
+    100%{background-position:35% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:35% 0%}
+    50%{background-position:66% 100%}
+    100%{background-position:35% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:35% 0%}
+    50%{background-position:66% 100%}
+    100%{background-position:35% 0%}
 }
 .question {
-  font-family: Arial;
+  font-family: Avenir;
+  color: white;
 }
 .answer {
-  font-family: Arial;
+  font-family: Avenir;
+  color: white;
 }
 img {
   width: 300px;
@@ -20,4 +40,5 @@ img {
 }
 h1 {
   color: white;
+  font-family: Avenir, sans-serif;
 }
