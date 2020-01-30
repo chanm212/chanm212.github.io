@@ -42,3 +42,7 @@ h1 {
   color: white;
   font-family: Avenir, sans-serif;
 }
+a {
+  font-family: Avenir;
+  color: white;
+}
