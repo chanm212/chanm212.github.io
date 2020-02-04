@@ -1,0 +1,28 @@
+.container {
+  background-color: #e76c1e;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+.one {
+  background-color: #d23c1b;
+  width: 100px;
+}
+.two {
+  background-color: #c11e32;
+  width: 30vw;
+}
+.three {
+  background-color: #e9afa1;
+  width: 16vw;
+  left: 20vw;
+}
+.box {
+  height: 100vh;
+  display: inline-block;
+  position: relative;
+}
+
+
