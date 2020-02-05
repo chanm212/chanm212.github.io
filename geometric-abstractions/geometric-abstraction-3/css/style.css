@@ -1,0 +1,26 @@
+.container {
+  background-color: #f5ede2;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.box {
+  width: 48vw;
+  height: 48vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.one {
+  background-color: #ad2d66;
+}
+.two {
+  background-color: #c8364d;
+}
+.three {
+  background-color: #e16045;
+}
+.four {
+  background-color: #e5903f;
+}
