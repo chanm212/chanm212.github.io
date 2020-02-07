@@ -10,7 +10,6 @@
 body {
   background-color: black;
 }
-
 .frame {
   width: 95vw;
   height: 57vw;
@@ -18,5 +17,111 @@ body {
   margin: 2.5vw auto;
   position: relative;
 }
-
-/* Your CSS goes here */
+.table {
+    background-color: gray;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 43%;
+    left: 24%;
+}
+.camera {
+    background-color: black;
+    width: 13%;
+    height: 15%;
+    position: absolute;
+    top: 54%;
+    left: 43%;
+}
+.vase {
+    background-color: white;
+    position: absolute;
+    width: 8%;
+    height: 15%;
+    top: 40%;
+    left: 45%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+}
+.stem-1 {
+    height: 10%;
+    width: 1%;
+    background-color: green;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: rotate(25deg);
+}
+.stem-2 {
+    height: 12%;
+    width: 1%;
+    background-color: green;
+    position: absolute;
+    top: 29%;
+    left: 47%;
+    transform: rotate(-20deg)
+}
+.flower-1 {
+    width: 3%;
+    height: 5%;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    top: 28%;
+    left: 51%;
+}
+.flower-2 {
+    width: 3%;
+    height: 5%;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 44%;
+}
+.book-far {
+    background-color: lightgray;
+    width: 8%;
+    height: 21%;
+    position: absolute;
+    top: 35%;
+    left: 46%;
+}
+.book-bottom {
+    width: 13%;
+    height: 10%;
+    background-color: teal;
+    position: absolute;
+    top: 54%;
+    left: 45%;
+    transform: rotate(-10deg);
+}
+.book-top {
+    width: 13%;
+    height: 6%;
+    background-color: #363636;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: rotate(13deg);
+}
+.lens {
+    width: 5%;
+    height: 9%;
+    background-color: #404040;
+    border-radius: 50%;
+    position: absolute;
+    top: 58%;
+    left: 47%;
+}
+.flash {
+    width: 3%;
+    height: 3%;
+    background-color: #404040;
+    border: .75vw solid black;
+    position: absolute;
+    top: 52%;
+    left: 47.25%;
+}
