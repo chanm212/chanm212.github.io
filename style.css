@@ -13,6 +13,7 @@ h1 {
   position: relative;
   display: inline-block;
   float: right;
+  z-index: 1;
 }
 .dropbutton {
   background-color: #000;
@@ -48,6 +49,7 @@ h1 {
 .surveythumb {
   width: 476.8px;
   height: 400px;
+  z-index: -1;
 }
 .thumbnails {
   text-align: center;
