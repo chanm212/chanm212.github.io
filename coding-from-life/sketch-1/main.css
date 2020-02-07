@@ -1,0 +1,117 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+.table {
+    border-bottom: 170px solid #928c8c;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    height: 0;
+    width: 280px;
+    position: absolute;
+    top: 300px;
+    left: 301px;
+}
+.camera {
+  width: 90px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 330px;
+    left: 444px;
+}
+.vase {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    position: absolute;
+    top: 258px;
+    left: 449px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.book-far {
+    background-color: gray;
+    width: 70px;
+    height: 120px;
+    position: absolute;
+    top: 220px;
+    left: 455px;
+    opacity: .5;
+}
+.stem-1 {
+    background-color: green;
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    top: 214px;
+    left: 497px;
+    transform: rotate(28deg);
+}
+.stem-2 {
+    background-color: green;
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    top: 204px;
+    left: 460px;
+    transform: rotate(-30deg)
+}
+.book-bottom {
+  background-color: teal;
+    width: 60px;
+    height: 140px;
+    position: absolute;
+    top: 280px;
+    left: 460px;
+    transform: rotate(620deg);
+}
+.book-top {
+    background-color: #3a3939;
+    width: 45px;
+    height: 110px;
+    position: absolute;
+    top: 277px;
+    left: 451px;
+    transform: rotate(640deg)
+}
+.flower-1 {
+    width: 35px;
+    height: 35px;
+    background-color: pink;
+    position: absolute;
+    border-radius: 20px;
+    top: 185px;
+    left: 500px;
+}
+.flower-2 {
+    width: 35px;
+    height: 35px;
+    background-color: pink;
+    position: absolute;
+    border-radius: 20px;
+    top: 175px;
+    left: 426px;
+}
+
+
+
+
+
+
