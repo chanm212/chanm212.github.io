@@ -18,12 +18,14 @@ body {
   position: relative;
 }
 .table {
-    background-color: gray;
-    width: 50%;
-    height: 40%;
+    border-bottom: 20vw solid #828282;
+    border-left: 7vw solid transparent;
+    border-right: 7vw solid transparent;
+    height: 0;
+    width: 25vw;
     position: absolute;
-    top: 43%;
-    left: 24%;
+    top: 45%;
+    left: 29%;
 }
 .camera {
     background-color: black;
@@ -124,4 +126,12 @@ body {
     position: absolute;
     top: 52%;
     left: 47.25%;
+}
+.tablecloth {
+    width: 39vw;
+    height: 20%;
+    position: absolute;
+    background-color: #676666;
+    top: 80%;
+    left: 29%;
 }
