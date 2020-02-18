@@ -1,0 +1,87 @@
+body {
+  background-color: #06063e;
+}
+.container {
+  display: flex;
+}
+.main {
+  width: 65%;
+  padding: 2%;
+}
+.sidebar {
+  width: 35%;
+  padding: 2%;
+}
+
+
+
+a {
+  color:white;
+}
+h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  margin: 1%;
+}
+p.subheading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  margin: 1%;
+}
+p.main-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 21px;
+}
+.image {
+  text-align: center;
+  padding: 3%;
+}
+img {
+  width: 80%;
+  text-align: center;
+}
+p.fact {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+p.caption {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin: 1%;
+}
+.fact-box {
+  padding: 3%;
+  border: 2px solid black;
+  margin-top: 12%;
+  background-color: white;
+}
+.fact-two {
+  margin-top: 11%;
+}
+.fact-three {
+ margin-top: 9%;
+}
+.fact-four {
+ margin-top: 12%;
+}
+.fact-five {
+ margin-top: 59%;
+}
+.fact-six {
+  margin-top: 6%;
+}
+.fact-seven {
+  margin-top: 63%;
+}
