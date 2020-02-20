@@ -85,3 +85,14 @@ p.caption {
 .fact-seven {
   margin-top: 63%;
 }
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+    padding: 4%;
+  }
+  .sidebar {
+    display: none;
+  }
+}
