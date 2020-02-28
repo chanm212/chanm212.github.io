@@ -1,0 +1,113 @@
+body {
+  background-color: #4a1f09;
+  cursor: url('../images/spooncursor.png'), default;
+}
+
+.row-1 {
+  text-align: center;
+}
+h1 {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 20vw;
+  margin: auto;
+  color: #fff3e6;
+}
+h2 {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 10vw;
+  margin: auto;
+  color: #fff3e6;
+}
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff3e6;
+  font-size: 32px;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+.col-1 {
+  width: 45vw;
+  margin: auto;
+}
+.col-2 {
+  width: 45vw;
+  margin: auto;
+  margin-top: 0;
+}
+.row-3 {
+  display: flex;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+.cookie {
+  width: 15vw;
+  height: 15vw;
+  margin: auto;
+  animation: spinCookie 6s infinite linear;
+}
+.donut {
+  width: 15vw;
+  height: 15vw;
+  margin: auto;
+  animation: spinDonut 3s infinite linear;
+}
+.icecream {
+  width: 15vw;
+  height: auto;
+  margin: auto;
+  animation: spinCookie 7s infinite linear;
+}
+.macaron {
+  width: 15vw;
+  height: 14.5vw;
+  margin: auto;
+  animation: spinDonut 9s infinite linear;
+}
+@keyframes spinCookie {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinDonut {
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(340deg);
+  }
+}
+.button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 27px;
+  background-color: #f393c5;
+  border-radius: 2.5vw;
+  text-align: center;
+  padding: 3%;
+  margin: auto;
+  width: 15vw;
+}
+a {
+  color: #4a1f09;
+  text-decoration: none;
+  cursor: url('../images/spooncursorspecial.png'), auto;
+}
+@media screen and (max-width: 700px) {
+  .row-2 {
+    flex-direction: column;
+    font-size: 24px;
+   }
+   .col-1 {
+    width: 80vw;
+   }
+   .col-2 {
+    width: 80vw;
+    margin-top: 1em;
+   }
+}

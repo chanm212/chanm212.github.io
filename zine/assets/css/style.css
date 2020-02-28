@@ -1,0 +1,324 @@
+@font-face {
+    font-family: L10-Regular;
+    src: url("L10-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: L10-Medium;
+    font-weight: bold;
+    src: url("L10-Medium.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+}
+.header {
+  height: 50px;
+  background-color: #D8D8D8;
+  width: 100vw;
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "L10-Medium";
+  width: auto;
+  text-decoration: underline;
+  padding: 8px;
+}
+.column-main {
+  margin: auto;
+  width: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h1 {
+  font-family: "L10-Regular";
+  font-size: 36px;
+  text-align: left;
+}
+h3 {
+  font-family: "L10-Regular";
+  font-size: 20px;
+  margin-bottom: 2em;
+  margin-top: .75em;
+}
+.text {
+  font-family: "L10-Regular";
+  font-size: 20px;
+  margin-top: 1em;
+}
+.question {
+  font-family: "L10-Medium";
+}
+img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: .5em;
+}
+.caption {
+  font-size: 14px;
+  width: 90%;
+  margin: auto;
+  font-family: "L10-Regular";
+}
+.box {
+  width: 20%;
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 78%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: #B90202 solid 2px;
+  border-radius: 15px;
+}
+.red {
+  color: #B90202;
+}
+.robin {
+  top: 12%;
+}
+.ballet {
+  left: 70%;
+  top: 98%;
+}
+.alexander {
+  top: 350%;
+}
+.met {
+  left: 70%;
+  top: 435%;
+}
+.lynne {
+  top: 448%;
+}
+.historical {
+  top: 492%;
+  left: 70%;
+}
+.digital {
+  top: 735%;
+}
+.kindle {
+  left: 70%;
+  top: 757%;
+}
+.mother {
+  top: 1038%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+
+.column-main {
+  margin: auto;
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h1 {
+  font-family: "L10-Regular";
+  font-size: 36px;
+  text-align: left;
+}
+h3 {
+  font-family: "L10-Regular";
+  font-size: 20px;
+  margin-bottom: 2em;
+  margin-top: .75em;
+}
+.text {
+  font-family: "L10-Regular";
+  font-size: 20px;
+  margin-top: 1em;
+}
+.question {
+  font-family: "L10-Medium";
+}
+img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: .5em;
+}
+.caption {
+  font-size: 14px;
+  width: 90%;
+  margin: auto;
+  font-family: "L10-Regular";
+}
+.box {
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: #B90202 solid 2px;
+  border-radius: 15px;
+  position: relative;
+  margin: auto;
+  left: 0%;
+  margin-top: 1em;
+}
+.red {
+  color: #B90202;
+}
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.box {
+  width: 20%;
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 84%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: #B90202 solid 2px;
+  border-radius: 15px;
+}
+.robin {
+  top: 12%;
+}
+.ballet {
+  left: 70%;
+  top: 105%;
+}
+.alexander {
+  top: 400%;
+}
+.met {
+  left: 70%;
+  top: 535%;
+}
+.lynne {
+  top: 560%;
+}
+.historical {
+  top: 622%;
+  left: 70%;
+}
+.digital {
+  top: 885%;
+}
+.kindle {
+  left: 70%;
+  top: 925%;
+}
+.mother {
+  top: 1338%;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.header {
+  height: 50px;
+  background-color: #D8D8D8;
+  width: 100vw;
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "L10-Medium";
+  width: auto;
+  text-decoration: underline;
+  padding: 8px;
+}
+.column-main {
+  margin: auto;
+  width: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h1 {
+  font-family: "L10-Regular";
+  font-size: 36px;
+  text-align: left;
+}
+h3 {
+  font-family: "L10-Regular";
+  font-size: 20px;
+  margin-bottom: 2em;
+  margin-top: .75em;
+}
+.text {
+  font-family: "L10-Regular";
+  font-size: 20px;
+  margin-top: 1em;
+}
+.question {
+  font-family: "L10-Medium";
+}
+img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-bottom: .5em;
+}
+.caption {
+  font-size: 14px;
+  width: 90%;
+  margin: auto;
+  font-family: "L10-Regular";
+}
+.box {
+  width: 20%;
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 78%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: #B90202 solid 2px;
+  border-radius: 15px;
+}
+.red {
+  color: #B90202;
+}
+.robin {
+  top: 12%;
+}
+.ballet {
+  left: 70%;
+  top: 98%;
+}
+.alexander {
+  top: 350%;
+}
+.met {
+  left: 70%;
+  top: 435%;
+}
+.lynne {
+  top: 448%;
+}
+.historical {
+  top: 492%;
+  left: 70%;
+}
+.digital {
+  top: 735%;
+}
+.kindle {
+  left: 70%;
+  top: 757%;
+}
+.mother {
+  top: 1038%;
+}
+}
+
+
+
