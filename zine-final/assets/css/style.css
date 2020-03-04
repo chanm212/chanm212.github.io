@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  width: 100vw;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+  z-index: -100;
+}
+.blend {
+  background-image: linear-gradient(lightgray, white);
+  width: 100vw;
+  height: 30vh;
+  position: absolute;
+  top: 100vh;
+  z-index: -1;
+}
+.header-text {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+}
+.title {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  display: block;
+}
+.subtitle {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  display: block;
+  padding-top: 3%;
+}
+.bottom-line {
+  height: 5px;
+  width: 400px;
+  background-color: #B90202;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.column-main {
+  margin: 5%;
+}
+.heading {
+  width: fit-content;
+  padding: 3%;
+  background-color: #fff;
+  border: #B90202 solid 5px;
+}
+h1 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 56px;
+  margin: 0;
+}
+h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px;
+  width: 60%;
+  margin-top: 10vh;
+}
+.question {
+  font-weight: 600;
+}
+.two {
+  float:right;
+  margin-bottom: 15vh;
+}
+.three {
+  clear: right;
+  margin-bottom: 15vh;
+}
+.four {
+  float: right;
+  margin-bottom: 10vh;
+}
+.five {
+  clear: right;
+}
+.six {
+  float: right;
+  margin-bottom: 10vh;
+}
+.seven {
+  clear: right;
+}
+.eight {
+  float: right;
+  margin-bottom: 10vh;
+}
+.nine {
+  clear: right;
+}
+.ten {
+  float: right;
+  margin-bottom: 10vh;
+}
+.eleven {
+  clear: right;
+}
+.twelve {
+  float: right;
+  margin-bottom: 10vh;
+}
+.thirteen {
+  clear: right;
+}
+.fourteen {
+  float: right;
+  margin-bottom: 10vh;
+}
+.fifteen {
+  clear: right;
+}
+.sixteen {
+  float: right;
+  margin-bottom: 10vh;
+}
+.red {
+  color: #B90202;
+}
+.red:hover {
+  text-decoration: underline;
+}
+.box {
+  width: 40%;
+  position: absolute;
+  top: 110vh;
+  left: 57%;
+  display: none;
+}
+.robin {
+  top: 110vh;
+  left: 57%;
+}
+.parsons {
+  top: 265vh;
+    width: 30%;
+    left: 62%;
+}
+.ballet {
+  top: 340vh;
+  left: 3%;
+  width: 35%;
+}
+.alexander {
+ top: 665vh;
+ left: 59%;
+}
+.met {
+top: 860vh;
+ left: 3%;
+ width: 33%;
+}
+.lynne {
+  top: 940vh;
+ left: 1%;
+}
+.historical {
+  top: 1000vh;
+  left: 2%;
+}
+.digital {
+  top: 1340vh;
+  left: 58%;
+  width: 40%;
+}
+.kindle {
+  top: 1505vh;
+  width: 35%;
+  left: 2%;
+}
+.mother {
+  top: 1845vh;
+  left: 57%;
+}
+img {
+  width: 100%;
+}
+.caption {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-size: 24px;
+  width: 80%;
+  color: #B90202;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.heading {
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  font-size
+}
+.text {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+.box {
+  position: relative;
+  display: block;
+  width: 50%;
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+.caption {
+  width: 100%;
+}
+.red {
+  pointer-events: none;
+}
+.two {
+  margin-bottom: 10vh;
+}
+.three {
+  margin-bottom: 10vh;
+}
+.parsons {
+  margin-bottom: 5vh;
+}
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+.box {
+  width: 30%;
+}
+.text {
+  width: 55%;
+}
+
+
+
+
+}
+
+
+@media print {
+
+.heading {
+
+}
+h1 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 15px;
+  margin-top: 12px;
+}
+.box {
+  display: block;
+}
+.text {
+  font-size: 24px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.caption {
+  font-size: 18px;
+}
+.robin {
+  top: 100vh;
+}
+.parsons {
+  top: 200vh;
+}
+.ballet {
+  top: 245vh;
+}
+.alexander {
+ top: 505vh;
+}
+.met {
+top: 630vh;
+}
+.lynne {
+  top: 657vh;
+}
+.historical {
+  top: 707vh;
+}
+.digital {
+  top: 1000vh;
+}
+.kindle {
+  top: 1105vh;
+  width: 35%;
+  left: 2%;
+}
+.mother {
+  top: 1400vh;
+  left: 57%;
+}
+
+
+}
+
+
+
+
+
+
+

@@ -28,14 +28,14 @@ body {
 }
 .bottom-line {
   height: 5px;
-  width: 480px;
+  width: 400px;
   background-color: #B90202;
   margin-left: auto;
   margin-right: auto;
 }
 .column-main {
   margin: auto;
-  width: 35%;
+  width: 50%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -63,23 +63,20 @@ img {
   width: 90%;
   margin: auto;
   margin-bottom: .5em;
+  position: absolute;
 }
 .caption {
-  font-size: 14px;
-  width: 90%;
+  font-size: 20px;
   margin: auto;
-  font-family: "L10-Regular";
+  font-family: "Nothing You Could Do", cursive;
+  color: #B90202;
 }
 .box {
   width: 20%;
-  display: none;
+  display: block;
   position: absolute;
   left: 10%;
   top: 180vh;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  border: #B90202 solid 2px;
-  border-radius: 15px;
 }
 .red {
   color: #B90202;
