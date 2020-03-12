@@ -198,44 +198,6 @@ img {
   margin: auto;
 }
 
-@media only screen and (max-width: 480px) {
-.heading {
-  text-align: center;
-  margin: auto;
-}
-h1 {
-  font-size
-}
-.text {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-}
-.box {
-  position: relative;
-  display: block;
-  width: 50%;
-  top: 0;
-  left: 0;
-  margin: auto;
-}
-.caption {
-  width: 100%;
-}
-.red {
-  pointer-events: none;
-}
-.two {
-  margin-bottom: 10vh;
-}
-.three {
-  margin-bottom: 10vh;
-}
-.parsons {
-  margin-bottom: 5vh;
-}
-}
 
 @media only screen and (max-width: 768px) {
 
@@ -296,6 +258,9 @@ h1 {
 
 @media print {
 
+body {
+  -webkit-print-color-adjust: exact;
+}
 .heading {
 
 }
