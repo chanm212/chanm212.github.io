@@ -8,11 +8,18 @@
 </head>
 <body>
   <h1>CORE INTERACTION</h1>
+  <div class="dropdown projects">
+    <button class="dropbutton projects">PROJECTS</button>
+    <div class="dropdown-content">
+      <a href="time-capsule/index.html">Time Capsule</a>
+      <a href="zine-final/index.html">Zine</a>
+      <a href="ani-zine/index.html">Ani's Zine</a>
+    </div>
+  </div>
   <div class="dropdown">
-    <button class="dropbutton">PROJECTS</button>
+    <button class="dropbutton assignments">ASSIGNMENTS</button>
     <div class="dropdown-content">
       <a href="survey/index.html">Survey</a>
-      <a href="time-capsule/index.html">Time Capsule</a>
       <a href="geometric-abstractions/geometric-abstraction-1/index.html">Geometric Abstraction 1</a>
       <a href="geometric-abstractions/geometric-abstraction-2/index.html">Geometric Abstraction 2</a>
       <a href="geometric-abstractions/geometric-abstraction-3/index.html">Geometric Abstraction 3</a>
@@ -20,14 +27,36 @@
       <a href="coding-from-life/archive/index.html">Archive</a>
       <a href="net-art-anthology/index.html">Net Art Anthology</a>
       <a href="event-poster/index.html">Event Poster</a>
-      <a href="zine-final/index.html">Zine</a>
-      <a href="ani-zine/index.html">Ani's Zine</a>
+
     </div>
   </div>
-  <div class="thumbnails">
-    <marquee scrollamount="8" direction="left" behavior="scroll">
-      <img class="surveythumb" src="assets/surveythumb.png">
-    </marquee>
+  <div class="grid images">
+    <iframe id="aniimages" src="ani-zine/index.html"></iframe>
+    <iframe id="zineimages" src="zine-final/index.html"></iframe>
+    <iframe id="eventimages" src="event-poster/index.html"></iframe>
+    <iframe id="netimages" src="net-art-anthology/index.html"></iframe>
+    <iframe id="geo3images" src="geometric-abstractions/geometric-abstraction-3/index.html"></iframe>
+    <iframe id="geo2images" src="geometric-abstractions/geometric-abstraction-2/index.html"></iframe>
+    <iframe id="geo1images" src="geometric-abstractions/geometric-abstraction-1/index.html"></iframe>
+    <iframe id="timeimages" src="time-capsule/index.html"></iframe>
+    <iframe id="archiveimages" src="coding-from-life/archive/index.html"></iframe>
+    <iframe id="codingimages"src="coding-from-life/sketch-2/index.html"></iframe>
+    <iframe id="surveyimages" src="survey/index.html"></iframe>
   </div>
+  <div class="grid description">
+    <div id="aniwords" class="words">Ani's Zine Website</div>
+    <div id="zinewords" class="words">Zine</div>
+    <div id="eventwords" class="words">Event Poster</div>
+    <div id="networds" class="words">Net Art Anthology</div>
+    <div id="geo3words" class="words">Geometric Abstraction 3</div>
+    <div id="geo2words" class="words">Geometric Abstraction 2</div>
+    <div id="geo1words" class="words">Geometric Abstraction 1</div>
+    <div id="timewords" class="words">Time Capsule</div>
+    <div id="archivewords" class="words">Coding From Life Archive</div>
+    <div id="codingwords" class="words">Coding From Life 2</div>
+    <div id="surveywords" class="words">Survey</div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="homepagemain.js" defer></script>
 </body>
 </html>
