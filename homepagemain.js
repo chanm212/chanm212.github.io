@@ -113,5 +113,46 @@ $(function() {
 
   });
 
+      $("#14words").on('click', function() {
+    
+    console.log("clicked");
+    $("#14images").css(
+      {zIndex:"1"});
+    $("#14words").css(
+      {opacity:"0"});
+
+  });
+
+      $("#23words").on('click', function() {
+    
+    console.log("clicked");
+    $("#23images").css(
+      {zIndex:"1"});
+    $("#23words").css(
+      {opacity:"0"});
+
+  });
+    
+      $("#30words").on('click', function() {
+    
+    console.log("clicked");
+    $("#30images").css(
+      {zIndex:"1"});
+    $("#30words").css(
+      {opacity:"0"});
+
+  });
+
+      $("#diarywords").on('click', function() {
+    
+    console.log("clicked");
+    $("#diaryimages").css(
+      {zIndex:"1"});
+    $("#diarywords").css(
+      {opacity:"0"});
+
+  });
+
+
 });
   
