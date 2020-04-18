@@ -1,32 +1,389 @@
 body {
   margin: 0;
 }
-.main {
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffc107;
+}
+.title {
+  padding-top: 17vh;
+}
+.header-bar {
   width: 100%;
+  height: 70px;
+  position: fixed;
+}
+.icon {
+  float: right;
+  width: fit-content;
+}
+#grid {
+  width: 40px;
+  padding: 15px;
+  fill: black;
+}
+h1 {
+  font-family: "Chomsky";
+  font-size: 100px;
+  letter-spacing: 1px;
+  text-align: center;
+  z-index: 2;
+  line-height: 100px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 50px;
+  color: black;
+}
+h2 {
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  width: fit-content;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+  margin-bottom: 24px;
+  color: black;
 }
-.text {
-  width: 50%;
-  margin-right: 15%;
-  float: right;
+h3 {
   font-family: titling-gothic-fb, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 48px;
+  font-size: 30px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  color: black;
+}
+.break {
+  height: 20vh;
+  width: 100%;
+}
+.date-group {
+  position: absolute;
+  top: 115vh;
+  left: 20px;
+  z-index: 100;
+  display: grid;
+  grid-template-rows: 550px 550px 550px 550px 550px 550px 550px 550px 550px 550px 550px 550px 550px 550px 550px 550px;
+}
+.date {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #ffc107;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  font-size: 18px;
+  line-height: 100px;
+  text-align: center;
+  position: sticky;
+  margin-top: 20px;
+  top: 20px;
+}
+.main {
+  width: 1000px;
+  margin: auto;
   position: relative;
-  clear: both;
-  margin-bottom: 120px;
+  background-color: white;
+}
+.text-block {
+  display: grid;
+  position: absolute;
+  grid-template-columns: auto;
+  width: 450px;
+  top: 0px;
+  left: 550px;
+}
+.text-box {
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  height: 550px;
+  align-content: center;
+}
+.text {
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#offset-text {
+  height: 200px;
 }
 .item {
-  position: -webkit-sticky;
+  width: 550px;
   position: sticky;
-  width: 800px;
   top: 0;
-  left: 100px;
-  z-index: -100;
 }
 img {
   width: 100%;
+}
+.grid-container {
+  display: none;
+}
+.scroll-to-top {
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+  color: black;
+}
+.scroll-to-top:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*#text-15 {
+  margin-top: 66px;
+}
+#text-16 {
+  margin-top: 85px;
+}
+#text-17 {
+  margin-top: 142px;
+}
+#text-18 {
+  margin-top: 123px;
+}
+#text-19 {
+  margin-top: 180px;
+}
+#text-20 {
+  margin-top: 85px;
+}
+#text-21 {
+  margin-top: 246px;
+}
+#text-22 {
+  margin-top: 28px;
+}
+#text-23 {
+  margin-top: 47px;
+}
+#text-24 {
+  margin-top: 142px;
+}
+#text-25 {
+  margin-top: 85px;
+}
+#text-26 {
+  margin-top: 47px;
+}
+#text-27 {
+  margin-top: 104px;
+}
+#text-28 {
+  margin-top: 123px;
+}
+#text-29 {
+  margin-top: 66px;
+}
+#text-30 {
+  margin-top: 85px;
+}*/
+@media only screen and (max-width: 768px) {
+  .title {
+    padding-top: 23vh;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    color: black;
+    font-size: 21px;
+    margin-bottom: 24px;
+  }
+  h3 {
+    color: black;
+    font-size: 24px;
+    width: 60%;
+  }
+  .break {
+  height: 10vh;
+  }
+  .date-group {
+  left: 15px;
+  top: 110vh;
+  grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px;
+  }
+  .date {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  font-size: 12px;
+  line-height: 70px;
+  margin-top: 15px;
+  top: 15px;
+  }
+  .main {
+  width: 400px;
+  margin: auto;
+  }
+  .item-block {
+    display: none;
+  }
+  .text-block {
+    width: 200px;
+    left: 200px;
+    display: none;
+  }
+  .text-box {
+    font-size: 18px;
+    height: 200px;
+  }
+  #offset-text {
+  height: 80px;
+  }
+  .text {
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  }
+  .item {
+    width: 400px;
+    position: relative;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  width: 400px;
+  position: relative;
+  margin: auto;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  }
+  .item.text {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .title {
+    padding-top: 20vh;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 21px;
+    margin-bottom: 24px;
+  }
+  h3 {
+    font-size: 24px;
+    width: 60%;
+  }
+  .break {
+  height: 10vh;
+  }
+  .date-group {
+  left: 15px;
+  top: 110vh;
+  grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+  }
+  .date {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 12px;
+  line-height: 60px;
+  margin-top: 15px;
+  top: 15px;
+  }
+  .main {
+  width: 600px;
+  margin: auto;
+  }
+  .text-block {
+    width: 300px;
+    left: 300px;
+  }
+  .text-box {
+    font-size: 18px;
+    height: 300px;
+  }
+  #offset-text {
+  height: 80px;
+}
+  .text {
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  }
+  .item {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .title {
+  padding-top: 20vh;
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 27px;
+  }
+  h3 {
+    font-size: 27px;
+    width: 60%;
+  }
+  .break {
+  height: 12vh;
+  }
+  .date-group {
+  left: 20px;
+  top: 112vh;
+  grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+  }
+  .date {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  font-size: 14px;
+  line-height: 80px;
+  margin-top: 20px;
+  top: 20px;
+  }
+  .main {
+  width: 750px;
+  margin: auto;
+  }
+  .text-block {
+  width: 360px;
+  left: 380px;
+  }
+  .text-box {
+    font-size: 21px;
+    height: 380px;
+  }
+  #offset-text {
+  height: 100px;
+}
+  .text {
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  }
+  .item {
+    width: 380px;
+  }
 }

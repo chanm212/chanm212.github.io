@@ -14,13 +14,13 @@ body {
 #home {
   width: 30px;
   padding: 9px;
-  fill: gray;
+  fill: lightgray;
 }
 #grid {
   width: 30px;
   padding: 9px;
   padding-left: 4px;
-  fill: gray;
+  fill: lightgray;
 }
 .titleimage {
   width: 100vw;
@@ -147,9 +147,6 @@ img {
 }
 
 @media only screen and (min-width: 1200px) {
-  .title {
-    top: 15vw;
-  }
   h1 {
   font-family: "Chomsky";
   font-size: 90px;
