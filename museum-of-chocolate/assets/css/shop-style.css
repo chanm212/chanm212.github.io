@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.section-grid {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: #FCF8ED;
+}
+.logo {
+  height: 80px;
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#ticket-link {
+  display: inline;
+  float: right;
+  text-decoration: none;
+}
+.tickets {
+  width: 120px;
+  height: 45px;
+  background-color: #271913;
+  color: #FCF8ED;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 21px;
+  letter-spacing: 1.4px; 
+  line-height: 45px;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+  text-decoration: none;
+  float:right;
+  display: inline;
+  margin-top: 27.5px;
+  margin-bottom: 27.5px;
+}
+.shop {
+  background-color:  #FCF8ED;
+  width: 100vw;
+}
+.section-name {
+  color: #271913;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: 1.7px;
+  line-height: 100px;
+  display: inline;
+}
+.categories {
+  display: inline-grid;
+  float: right;
+  grid-template-columns: auto auto auto;
+  width: 500px;
+  color: #271913;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  line-height: 100px;
+  text-align: right;
+}
+.category-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shop-grid {
+  display: grid;
+  width: 900px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.product-picture {
+  width: 250px;
+  height: auto;
+  border: 2px solid #271913;
+}
+.item-name {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.price {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+.footer {
+  width: 100vw;
+  background-color: #271913;
+}
+#footer-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-text {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #FCF8ED;
+  font-size: 14px;
+  letter-spacing: .8px;
+  line-height: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-grid {
+    width: 92vw;
+  }
+  .header {
+  height: 76px;
+  }
+  .logo {
+    height: 60px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .tickets {
+    width: 94px;
+    height: 36px;
+    font-size: 16px;
+    letter-spacing: 1.2px; 
+    line-height: 36px;
+    margin-top: 20px;
+  }
+  .section-name {
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    line-height: 76px;
+    display: block;
+  }
+  .categories {
+  width: 92vw;
+  display: grid;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 76px;
+  text-align: center;
+  float: none;
+  }
+  .shop-grid {
+    width: 92vw;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .product-picture {
+    width: 80vw;
+  }
+  .item-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .price {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 30px;
+  }
+  #footer-grid {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-text {
+    font-size: 12px;
+    letter-spacing: .7px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .section-grid {
+    width: 560px;
+  }
+  .header {
+  height: 76px;
+  }
+  .logo {
+    height: 60px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .tickets {
+    width: 94px;
+    height: 36px;
+    font-size: 16px;
+    letter-spacing: 1.2px; 
+    line-height: 36px;
+    margin-top: 20px;
+  }
+  .section-name {
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    line-height: 76px;
+  }
+  .categories {
+  width: 300px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 76px;
+  }
+  .shop-grid {
+    width: 560px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .product-picture {
+    width: 150px;
+  }
+  .item-name {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .price {
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 20px;
+  }
+  #footer-grid {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-text {
+    font-size: 12px;
+    letter-spacing: .7px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .section-grid {
+    width: 750px;
+  }
+  .categories {
+  grid-template-columns: auto auto auto;
+  width: 400px;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  line-height: 100px;
+  }
+  .shop-grid {
+    width: 750px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .product-picture {
+    width: 200px;
+  }
+  .item-name {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .price {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 25px;
+  }
+}

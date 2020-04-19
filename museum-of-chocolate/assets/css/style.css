@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.section-grid {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: #FCF8ED;
+}
+.logo {
+  height: 80px;
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#ticket-link {
+  display: inline;
+  float: right;
+  text-decoration: none;
+}
+.tickets {
+  width: 120px;
+  height: 45px;
+  background-color: #271913;
+  color: #FCF8ED;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 21px;
+  letter-spacing: 1.4px; 
+  line-height: 45px;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+  text-decoration: none;
+  float:right;
+  display: inline;
+  margin-top: 27.5px;
+}
+.visit {
+  width: 100vw;
+  height: 100px;
+  background-color: #BD8C69;
+}
+.exhibits {
+  width: 100vw;
+  height: 100px;
+  background-color: #623320;
+}
+.events {
+  width: 100vw;
+  height: 100px;
+  background-color: #271913;
+}
+.shop {
+  width: 100vw;
+  height: 100px;
+  background-color: #EE9F92;
+}
+#shop-link {
+  text-decoration: none;
+}
+.about {
+  width: 100vw;
+  height: 100px;
+  background-color: #8fae84;
+}
+.section-name {
+  color: #FCF8ED;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: 1.7px;
+  line-height: 100px;
+}
+.footer {
+  width: 100vw;
+  background-color: #FCF8ED;
+}
+#footer-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-text {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: .8px;
+  line-height: 18px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .section-grid {
+    width: 92vw;
+  }
+  .header {
+  height: 76px;
+  }
+  .logo {
+    height: 60px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .tickets {
+    width: 94px;
+    height: 36px;
+    font-size: 16px;
+    letter-spacing: 1.2px; 
+    line-height: 36px;
+    margin-top: 20px;
+  }
+  .visit {
+    height: 76px;
+  }
+  .exhibits {
+    height: 76px;
+  }
+  .events {
+    height: 76px;
+  }
+  .shop {
+    height: 76px;
+  }
+  .about {
+    height: 76px;
+  }
+  .section-name {
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    line-height: 76px;
+  }
+  #footer-grid {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-text {
+    font-size: 12px;
+    letter-spacing: .7px;
+    line-height: 16px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .section-grid {
+    width: 560px;
+  }
+  .header {
+  height: 76px;
+  }
+  .logo {
+    height: 60px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .tickets {
+    width: 94px;
+    height: 36px;
+    font-size: 16px;
+    letter-spacing: 1.2px; 
+    line-height: 36px;
+    margin-top: 20px;
+  }
+  .visit {
+    height: 76px;
+  }
+  .exhibits {
+    height: 76px;
+  }
+  .events {
+    height: 76px;
+  }
+  .shop {
+    height: 76px;
+  }
+  .about {
+    height: 76px;
+  }
+  .section-name {
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    line-height: 76px;
+  }
+  #footer-grid {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-text {
+    font-size: 12px;
+    letter-spacing: .7px;
+    line-height: 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .section-grid {
+    width: 750px;
+  }
+}
