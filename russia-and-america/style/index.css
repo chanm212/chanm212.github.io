@@ -1,0 +1,23 @@
+.wrapper {
+  width: 65%;
+  margin: auto;
+  padding-top: 5%;
+}
+.text {
+  font-size: 36px;
+  text-align: center;
+  font-family: adobe-garamond-pro, serif; 
+  font-weight: 400;
+  font-style: normal;
+}
+svg {
+  width: 35px;
+  height: auto;
+  display:none;
+}
+#buttonn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+}
